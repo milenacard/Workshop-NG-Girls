@@ -1,0 +1,16 @@
+<div class="content1">
+  <div>
+    <h1>The count is: {{count}}</h1>
+  </div>
+  <div class="botton">
+    <button (click)="countUp()" >Clic me!</button>
+  </div>
+</div>
+<div class="image">
+  <img [src]="imgSource">
+</div>
+<div class="content2">
+  <input type="text" [disabled]="enable">
+  <button (click)="disableInput()">Disable</button>
+  {{enable}}
+</div>
